@@ -11,7 +11,7 @@ body{
 
 .em {
   font-family: 'font1', sans-serif;
-  border-radius: 20px;
+  border-radius: 10px;
   width: calc(80%);
   height: calc(80%);
   background: #fff;
@@ -47,7 +47,7 @@ body{
 }
 
 
-.search-btn {
+#search-btn {
   color: #fff;
   width: 25px;
   height: 30px;
@@ -55,9 +55,11 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background: none;
+  border: none;
 }
 
-.search-txt{
+#search-txt{
   border: none;
   background: none;
   outline: none;
@@ -69,10 +71,6 @@ body{
   width: 200px;
 }
 
-.em h1{
-  color: red;
-  padding-left: 40px;
-}
 
 #logo{
   width: 80px;
@@ -85,15 +83,16 @@ body{
   color: #fff;
   font-family: 'font1', sans-serif;
   position: absolute;
-  left: calc(100% - 92%);
-  top: calc(100% - 99%);
+  left: calc(100% - 93%);
+  top: calc(100% - 99.5%);
 }
 
 .wrapper{
-  width: 450px;
+  width: 600px;
+  height: 100%;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 0px 40px rgba(0,0,0,0.12);
 }
 .wrapper header{
   display: flex;
@@ -123,8 +122,11 @@ header .icons span:hover{
   background: #f2f2f2;
 }
 header .current-date{
-  font-size: 1.45rem;
+  font-size: 30px;
   font-weight: 500;
+  color: #9B59B6;
+  text-decoration: underline;
+  padding-left: 30%;
 }
 .calendar{
   padding: 20px;
